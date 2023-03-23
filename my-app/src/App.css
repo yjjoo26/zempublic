@@ -2,6 +2,31 @@
 
 .App {
   text-align: center;
+  overflow: hidden;
+}
+.gutter-example .ant-row > div {
+  background: transparent;
+  border: 0;
+}
+.gutter-box {
+  background: #00a0e9;
+  padding: 5px 0;
+}
+.LayoutTest .l-h{
+  background-color: silver;
+}
+.LayoutTest .l-c{
+  background-color: beige;
+}
+.LayoutTest .l-f{
+  background-color: skyblue;
+}
+.LayoutTest .l-s{
+  background-color: peachpuff;
+}
+.HeaderTest{
+  width: 800px;
+  margin: 0 auto;
 }
 
 .App-logo {
