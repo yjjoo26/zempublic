@@ -28,7 +28,21 @@
   width: 800px;
   margin: 0 auto;
 }
-
+/* Badge 관련 */
+.ant-tag {
+  margin-bottom: 8px;
+}
+/* Carousel 관련 */
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 160px;
+  line-height: 160px;
+  background: #364d79;
+  overflow: hidden;
+}
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

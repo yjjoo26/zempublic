@@ -5,7 +5,7 @@ function MenuTest() {
   
   return (
     <div className="MenuTest">
-        <Menu></Menu>
+        {/* <Menu></Menu> */}
     </div>
     
   );

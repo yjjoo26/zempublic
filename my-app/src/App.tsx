@@ -13,7 +13,18 @@ import HeaderTest from './Navigation/HeaderTest';
 // import DropdownTest from './Navigation/DropdownTest';
 // import MenuTest from './Navigation/Menutest';
 // import StepTest from './Navigation/Steptest';
-
+import AvatarTest from './DataDisPpay/AvatarTest'
+import BadgeTest from './DataDisPpay/BadgeTest';
+import CommentTest from './DataDisPpay/CommentTest'
+import CollapsTest from './DataDisPpay/Collapstest';
+import CarouselTest from './DataDisPpay/Carousel';
+import CardTest from  './DataDisPpay/CardTest'
+import CalendarTest from './DataDisPpay/CalendarTest';
+import DescriptionsTest from './DataDisPpay/DescriptionsTest';
+import EmptyTest from './DataDisPpay/EmptyTest';
+import ListTest from './DataDisPpay/ListTest';
+import PropoverTest from './DataDisPpay/PropoverTest';
+import StaticTest from './DataDisPpay/StaticTest';
 
 function App() {
   return (
@@ -42,6 +53,30 @@ function App() {
       <HeaderTest />
       {/* <hr /> */}
       {/* <StepTest /> */}
+      <hr />
+      <AvatarTest />
+      <hr />
+      <BadgeTest />
+      <hr />
+      <CommentTest />
+      <hr />
+      <CollapsTest />
+      <hr />
+      <CarouselTest />
+      <hr />
+      <CardTest />
+      <hr />
+      <CalendarTest />
+      <hr />
+      <DescriptionsTest />
+      <hr />
+      <EmptyTest />
+      <hr />
+      <ListTest />
+      <hr />
+      <PropoverTest />
+      <hr />
+      <StaticTest />
     </div>
   );
 }
