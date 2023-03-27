@@ -43,6 +43,27 @@
 .ant-carousel .slick-slide h3 {
   color: #fff;
 }
+/* tag 관련 */
+.ant-tag {
+  margin-bottom: 8px;
+}
+/* Input 관련 */
+.example-input .ant-input {
+  width: 200px;
+  margin: 0 8px 8px 0;
+}
+/* Upload 관련 */
+.upload-list-inline .ant-upload-list-item {
+  float: left;
+  width: 200px;
+  margin-right: 8px;
+}
+.upload-list-inline .ant-upload-animate-enter {
+  animation-name: uploadAnimateInlineIn;
+}
+.upload-list-inline .ant-upload-animate-leave {
+  animation-name: uploadAnimateInlineOut;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
