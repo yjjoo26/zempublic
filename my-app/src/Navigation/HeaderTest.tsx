@@ -1,6 +1,20 @@
 import '../App.css';
 import { PageHeader, Button, Descriptions, Tag, Statistic, Row} from 'antd';
 
+const routes = [
+    {
+      path: 'index',
+      breadcrumbName: 'First-level Menu',
+    },
+    {
+      path: 'first',
+      breadcrumbName: 'Second-level Menu',
+    },
+    {
+      path: 'second',
+      breadcrumbName: 'Third-level Menu',
+    },
+];
 
 function HeaderTest() {
   
@@ -54,7 +68,7 @@ function HeaderTest() {
             border: '1px solid rgb(235, 237, 240)',
             }}
             title="Title"
-            // breadcrumb={{ routes }}
+            breadcrumb={{ routes }} //삽입 누락(수정완료)
             subTitle="This is a subtitle"
         />
         <h3>Header Example-(Complete example)</h3>

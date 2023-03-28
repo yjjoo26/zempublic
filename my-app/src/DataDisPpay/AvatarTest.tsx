@@ -32,6 +32,13 @@ function AvatarTest() {
             <Avatar icon="user"/>
             <Avatar size="small" icon="user"/>
         </div>
+        {/* 누락 */}
+        <div>
+            <Avatar shape="square" size={64} icon="user"/>
+            <Avatar shape="square" size="large" icon="user"/>
+            <Avatar shape="square" icon="user"/>
+            <Avatar shape="square" size="small" icon="user"/>
+        </div>
         <h3>Avatar Examples-(Type)</h3>
         <Avatar icon="user"/>
         <Avatar>U</Avatar>

@@ -31,6 +31,11 @@ const content4 = (
   </div>
 );
 
+// 누락실수
+const hoverContent = <div>This is hover content.</div>;
+
+const clickContent = <div>This is click content.</div>;
+
 function PropoverTest() {
   
   return (
@@ -114,7 +119,7 @@ function PropoverTest() {
                 <Button type="primary">Click me</Button>
             </Popover>
         </div> */}
-        <h3>arrow</h3>
+        <h3>Propover Example-(Arrow)</h3> 
         <div>
             <Popover placement="topLeft" title={text2} content={content4}>
             <Button>Align edge / 边缘对齐</Button>
@@ -123,8 +128,33 @@ function PropoverTest() {
             <Button>Arrow points to center / 箭头指向中心</Button>
             </Popover>
         </div>
-        {/* <h3>hover with</h3> */}
-
+        {/* 누락실수 */}
+        <h3>Propover Example-(Hover)</h3> 
+        <div>
+            <Popover
+                style={{ width: 500 }}
+                content={hoverContent}
+                title="Hover title"
+                trigger="hover"
+                // visible={this.state.hovered}
+                // onVisibleChange={this.handleHoverChange}
+            >
+                <Popover
+                    content={
+                        <div>
+                        {clickContent}
+                        {/* <a onClick={this.hide}>Close</a> */}
+                        </div>
+                    }
+                    title="Click title"
+                    trigger="click"
+                    // visible={this.state.clicked}
+                    // onVisibleChange={this.handleClickChange}
+                    >
+                    <Button>Hover and click / 悬停并单击</Button>
+                </Popover>
+            </Popover>
+        </div>
     </div>
     
   );

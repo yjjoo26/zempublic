@@ -17,6 +17,8 @@ const selectAfter = (
 //     <Option value=".org">.org</Option>
 //   </Select>
 );
+const { Search } = Input;
+
 const { TextArea } = Input;
 
 function InputTest() {
@@ -83,6 +85,26 @@ function InputTest() {
             <br />
 
             <Input prefix="￥" suffix="RMB" />
+        </div>
+        {/* 누락실수 */}
+        <h3>Input Examples-(Search)</h3>
+        <div style={{width:400, margin:"0 auto", textAlign:"left"}}>
+            <Search
+            placeholder="input search text"
+            onSearch={value => console.log(value)}
+            style={{ width: 200 }}
+            />
+            <br />
+            <br />
+            <Search placeholder="input search text" onSearch={value => console.log(value)} enterButton />
+            <br />
+            <br />
+            <Search
+            placeholder="input search text"
+            enterButton="Search"
+            size="large"
+            onSearch={value => console.log(value)}
+            />
         </div>
         <h3>Input Examples-(password)</h3>
         <div style={{ width:"400px", margin:"0 auto"}}>
