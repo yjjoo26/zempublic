@@ -3,7 +3,7 @@
 import './App.css';
 // import Button from 'antd/es/button';
 import ButtonTest from './General/ButtonTest'
-import IconTest from './General/IconTest'
+// import IconTest from './General/IconTest'
 import TypoTest from './General/TypoTest';
 import GridTest from './General/GridTest';
 import LayoutTest from './General/LayoutTest';
@@ -44,11 +44,24 @@ import RateTest from './DataEntry/RateTest';
 import RadioTest from './DataEntry/RadioTest'
 import SwitchTest  from './DataEntry/SwitchTest';
 import SliderTest from './DataEntry/SliderTest';
-import SelectTest from './DataEntry/SelectTest';
-import TreeSelectTest from './DataEntry/TreeSelectTest';
-import TransferTest from './DataEntry/TransferTest';
+// import SelectTest from './DataEntry/SelectTest';
+// import TreeSelectTest from './DataEntry/TreeSelectTest';
+// import TransferTest from './DataEntry/TransferTest';
 import TimePickerTest from './DataEntry/TimePickerTest';
 import UploadTest from './DataEntry/UploadTest';
+import AlertTest from './Feedback/AlertTest'
+import MessageTest from './Feedback/MessageTest';
+import NotificationTest from './Feedback/NotificationTest';
+import ProgressTest from './Feedback/ProgressTest';
+import PopconfirmTest from './Feedback/PopconfirmTest';
+import SpinTest from './Feedback/SpinTest';
+// import ResultTest from './Feedback/ResultTest';
+import SkeletonTest from './Feedback/SkeletonTest';
+import AnchorTest from './Other/AnchorTest';
+import BackTopTest from './Other/BackTopTest';
+import ConfigProviderTest from './Other/ConfigProviderTest';
+import LocaleProviderTest from './Deprecated/LocaleProviderTest';
+
 
 function App() {
   return (
@@ -146,6 +159,30 @@ function App() {
       <TimePickerTest />
       <hr />
       <UploadTest />
+      <hr />
+      <AlertTest />
+      <hr />
+      <MessageTest />
+      <hr />
+      <NotificationTest />
+      <hr />
+      <ProgressTest />
+      <hr />
+      <PopconfirmTest />
+      <hr />
+      {/* <ResultTest /> */}
+      <SpinTest />
+      <hr />
+      <SkeletonTest />
+      <hr />
+      <AnchorTest />
+      <hr />
+      <BackTopTest />
+      <hr />
+      <ConfigProviderTest />
+      <hr />
+      <LocaleProviderTest />
+      
     </div>
   );
 }

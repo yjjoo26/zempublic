@@ -61,41 +61,120 @@ function ButtonTest() {
         <br />
         <h3>Button Examples-(Size) </h3>
         {/* size가 적용되지 않아 radio 생략 */}
-        <Button type="primary">
-          Primary
-        </Button>
-        <Button>
-          Normal
-        </Button>
-        <Button type="dashed">
-          Dashed
-        </Button>
-        <Button type="danger">
-            Danger
-        </Button>
-        <br />
-        <Button type="primary" icon="download"/>
-        <Button type="primary" shape="circle" icon="download"/>
-        <Button type="primary" shape="round" icon="download"/>
-        <Button type="primary" shape="round" icon="download">
-          Download
-        </Button>
-        <Button type="primary" shape='round' icon='donwnload'>
+        <div>
+          <Button type="primary">
+            Primary
+          </Button>
+          <Button>
+            Normal
+          </Button>
+          <Button type="dashed">
+            Dashed
+          </Button>
+          <Button type="danger">
+              Danger
+          </Button>
+
+          <br />
+          <Button type="primary" icon="download"/>
+          <Button type="primary" shape="circle" icon="download"/>
+          <Button type="primary" shape="round" icon="download"/>
+          <Button type="primary" shape="round" icon="download">
             Download
-        </Button>
-        <br />
-        <Button.Group>
-            <Button type='primary'>
-                {/* Icon import되지 않아 생략 */}
-                {/* <Icon type="left" /> */}
-                Backward
-            </Button>
-            <Button type='primary'>
-                {/* Icon import되지 않아 생략 */}
-                {/* <Icon type="right" /> */}
-                Forward
-            </Button>
-        </Button.Group>
+          </Button>
+          <Button type="primary" shape='round' icon='donwnload'>
+              Download
+          </Button>
+          <br />
+          <Button.Group>
+              <Button type='primary'>
+                  {/* Icon import되지 않아 생략 */}
+                  {/* <Icon type="left" /> */}
+                  Backward
+              </Button>
+              <Button type='primary'>
+                  {/* Icon import되지 않아 생략 */}
+                  {/* <Icon type="right" /> */}
+                  Forward
+              </Button>
+          </Button.Group>
+        </div>
+        <div>
+          <Button type="primary" size="large" >
+            Primary
+          </Button>
+          <Button>
+            Normal
+          </Button>
+          <Button type="dashed" size="large" >
+            Dashed
+          </Button>
+          <Button type="danger" size="large" >
+              Danger
+          </Button>
+
+          <br />
+          <Button type="primary" icon="download" size="large" />
+          <Button type="primary" shape="circle" icon="download" size="large" />
+          <Button type="primary" shape="round" icon="download" size="large" />
+          <Button type="primary" shape="round" icon="download" size="large" >
+            Download
+          </Button>
+          <Button type="primary" shape='round' icon='donwnload' size="large" >
+              Download
+          </Button>
+          <br />
+          <Button.Group>
+              <Button type='primary' size="large" >
+                  {/* Icon import되지 않아 생략 */}
+                  {/* <Icon type="left" /> */}
+                  Backward
+              </Button>
+              <Button type='primary' size="large" >
+                  {/* Icon import되지 않아 생략 */}
+                  {/* <Icon type="right" /> */}
+                  Forward
+              </Button>
+          </Button.Group>
+        </div>
+        <div>
+          <Button type="primary" size="small">
+            Primary
+          </Button>
+          <Button>
+            Normal
+          </Button>
+          <Button type="dashed" size="small">
+            Dashed
+          </Button>
+          <Button type="danger" size="small">
+              Danger
+          </Button>
+
+          <br />
+          <Button type="primary" icon="download" size="small"/>
+          <Button type="primary" shape="circle" icon="download" size="small"/>
+          <Button type="primary" shape="round" icon="download" size="small"/>
+          <Button type="primary" shape="round" icon="download" size="small">
+            Download
+          </Button>
+          <Button type="primary" shape='round' icon='donwnload' size="small">
+              Download
+          </Button>
+          <br />
+          <Button.Group>
+              <Button type='primary' size="small">
+                  {/* Icon import되지 않아 생략 */}
+                  {/* <Icon type="left" /> */}
+                  Backward
+              </Button>
+              <Button type='primary' size="small">
+                  {/* Icon import되지 않아 생략 */}
+                  {/* <Icon type="right" /> */}
+                  Forward
+              </Button>
+          </Button.Group>
+        </div>
         <br />
         <br />
         <h3>Button Examples-(Loading) </h3>
