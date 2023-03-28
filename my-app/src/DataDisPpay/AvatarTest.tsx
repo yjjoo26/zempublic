@@ -48,6 +48,7 @@ function AvatarTest() {
         <Avatar style={{color:'#f56a00', backgroundColor:'#fde3cf'}}>U</Avatar>
         <Avatar icon='user' style={{ backgroundColor:'#87d068'}}></Avatar>
         <Avatar icon='loading' style={{ backgroundColor:'#87d068'}}></Avatar>
+        {/* class 컴포넌트 사용 미숙 */}
         <h3>Avatar Examples-(Autoset Font size)</h3>
         <div>
             <Avatar style={{ backgroundColor: 'pink', verticalAlign: 'middle' }} size="large">
@@ -64,6 +65,7 @@ function AvatarTest() {
         <h3>Avatar Examples-(With Badge)</h3> 
         <div>
             <span style={{ marginRight: 24 }}>
+                {/* <Badge count={1}/> 과 같은 형태는 적용이 되나 열린태그 닫힌태그 형태로는 적용 불가 */}
                 {/* <Badge count={1}> */}
                     <Avatar shape="square" icon="user" />
                 {/* </Badge>  */}

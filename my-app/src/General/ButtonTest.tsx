@@ -59,8 +59,8 @@ function ButtonTest() {
           </Button>
         </div>
         <br />
+        {/* class 컴포넌트 사용미숙, this선택자 적용x → radio버튼 삭제 후 각 사이즈별 버튼 삽입형태로 변경 */}
         <h3>Button Examples-(Size) </h3>
-        {/* size가 적용되지 않아 radio 생략 */}
         <div>
           <Button type="primary">
             Primary
@@ -177,6 +177,7 @@ function ButtonTest() {
         </div>
         <br />
         <br />
+        {/* this 선택자 마찬가지로 적용 불가, onClick함수 적용되지 않아 이벤트 생략 */}
         <h3>Button Examples-(Loading) </h3>
         {/* state가 지정되지않아 생략 */}
         <Button type="primary" loading>
@@ -201,6 +202,7 @@ function ButtonTest() {
         <Button type="danger" shape="round" loading />
         <br />
         <br />
+        {/* Menu컴포넌트 import x */}
         <h3>Button Examples-(Multiple) </h3>
         {/* menu와 icon이 적용되지 x */}
         {/* <Menu onClick={handleMenuClick}>

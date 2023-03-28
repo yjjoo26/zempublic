@@ -5,6 +5,7 @@ function ResultTest() {
   
   return (
     <div className="ResultTest">
+      {/* Result import x */}
         {/* <h3>Result Examples-(Basic) </h3> */}
         {/* <div>
             <Result

@@ -80,7 +80,7 @@ function TypoTest() {
         <br />
 
         <Divider />
-
+        {/* editable props적용을 위한 함수 적용 x */}
         <h3>Typography Example-(Interactive)</h3>
 
         {/* <Paragraph editable={{ onChange: this.onChange }}>{this.state.str}</Paragraph> */}

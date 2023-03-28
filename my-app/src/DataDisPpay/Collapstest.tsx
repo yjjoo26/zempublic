@@ -18,6 +18,7 @@ function CollapsTest() {
   return (
     <div className="CollapsTest">
         <h3>Collaps Examples-(Basic)</h3> 
+        {/* Collapse, panel import x */}
         {/* <Collapse defaultActiveKey={['1']} onChange={callback}>
             <Panel header="This is panel header 1" key="1">
                 <p>{text}</p>
